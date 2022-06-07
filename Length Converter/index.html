@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="convertor">
+      <h1>LENGTH CONVERTOR</h1>
+      <div id="textBox">
+        <input type="number" id="enterValue" placeholder="Input" />
+        <select name="unit" id="inputUnit">
+          <option value="meter">meter</option>
+          <option value="centimeter">centimeter</option>
+          <option value="kilometer">kilometer</option>
+          <option value="inches">inches</option>
+          <option value="yards">yards</option>
+          <option value="miles">miles</option>
+        </select>
+        =
+        <input type="text" placeholder="Result" id="result" disabled />
+        <select name="unit" id="outputUnit">
+          <option value="meter">meter</option>
+          <option value="centimeter">centimeter</option>
+          <option value="kilometer">kilometer</option>
+          <option value="inches">inches</option>
+          <option value="yards">yards</option>
+          <option value="miles">miles</option>
+        </select>
+      </div>
+      <input type="submit" value="clear" onclick="cleared()" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
